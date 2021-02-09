@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bar.component.scss']
 })
 export class BarComponent implements OnInit {
+  label = 'Hey!';
 
   constructor() { }
 
   ngOnInit(): void {
+    setTimeout(() => this.label = '*********', 3000);
   }
 
 }
