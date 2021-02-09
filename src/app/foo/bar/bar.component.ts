@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BarComponent implements OnInit {
   label = 'Hey!';
+  minutes = 2;
 
   constructor() { }
 
